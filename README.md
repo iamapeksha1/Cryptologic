@@ -47,4 +47,46 @@ increases the "incorrect guesses" counter by one; if it is the same, it appends 
 
 
 ## An example of what the output of a complete game looks like:
-   (The player's input is shown in bold)
+    
+ 
+##
+     Welcome to CRYPTO-LOGIC!
+     Try to guess the scrambled word, one letter at a time!
+     
+     Scrambled word: PPALE
+     Enter your guess ... L
+     Incorrect guesses: 1
+     Letters already guessed:
+     
+     Scrambled word: PPALE
+     Enter your guess ... A 
+     Incorrect guesses: 1
+     Letters already guessed: A
+     Scrambled word: PPALE
+     
+     Enter your guess ... P
+     Incorrect guesses: 1
+     Letters already guessed: AP
+     Scrambled word: PPALE
+     
+     Enter your guess ... E
+     Incorrect guesses: 2
+     Letters already guessed: AP
+     Scrambled word: PPALE
+     
+     Enter your guess ... P
+     Incorrect guesses: 2
+     Letters already guessed: APP
+     Scrambled word: PPALE
+     
+     Enter your guess ... L
+     Incorrect guesses: 2
+     Letters already guessed: APPL
+     Scrambled word: PPALE
+     
+     Enter your guess ... E
+     Incorrect guesses: 2
+     Letters already guessed: APPLE
+     
+     Congratulations! You found the word after 2 incorrect guess(es)!
+##
